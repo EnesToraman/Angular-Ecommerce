@@ -1,0 +1,22 @@
+.bannerArea{
+    height: 50vh;
+    border-radius: 60px;
+    text-align: center;
+}
+
+.banner{
+    height: 100%;
+    width: 100%;
+    border-radius: 60px;
+}
+
+.subBannerArea{
+    margin-top: 3vh;
+    height:10vh;
+}
+
+.subBanner{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
