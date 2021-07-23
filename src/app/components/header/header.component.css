@@ -1,0 +1,59 @@
+.companyLogo{
+    text-align: end;
+}
+
+.companyName{
+    padding-left: 5px;
+}
+
+.slogan{
+    font-size: 13px;
+    padding-left: 5px;
+}
+
+.searchBar{
+    width: 80%;
+    text-indent: 35px;
+}
+
+.searchBar:focus{
+    outline: none;
+}
+
+.searchBarLogo{
+    position: absolute;
+    padding-top: 3px;
+    padding-left: 10px;
+}
+
+.userLogo{
+    text-align: end;
+    opacity: 50%;
+}
+
+.logIn{
+    border: solid 1px gray; 
+    border-radius: 10px;
+}
+
+.logInText{
+    font-size: 14px;
+    padding-right: 0px;
+    padding-left: 20px;
+}
+
+.orRegisterText{
+    font-size: 13px;
+    padding-right: 0px;
+    padding-left: 20px;
+}
+
+.shoppingCart{
+    border: solid 1px gray; 
+    border-radius: 10px;
+}
+
+.shoppingCartText{
+    font-size: 13.5px;
+    padding-left: 25px;
+}

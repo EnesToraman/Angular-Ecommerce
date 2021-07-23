@@ -1,0 +1,9 @@
+.generalInfo{
+    justify-content: flex-end;
+    text-decoration: underline;
+    font-size: 13px;
+}
+
+.aboutUs{
+    text-align: center;
+}
