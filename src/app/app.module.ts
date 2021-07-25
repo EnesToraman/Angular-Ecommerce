@@ -11,6 +11,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { CategoryBarComponent } from './components/category-bar/category-bar.component';
 import { BannerComponent } from './components/banner/banner.component';
 import { ProductRecomComponent } from './components/product-recom/product-recom.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { ProductRecomComponent } from './components/product-recom/product-recom.
     HeaderComponent,
     CategoryBarComponent,
     BannerComponent,
-    ProductRecomComponent
+    ProductRecomComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
