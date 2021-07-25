@@ -1,0 +1,28 @@
+<div class="prodRecomArea">
+    <div class="row">
+        <div class="col-1">
+            Suits
+        </div>
+        <div class="col-1">
+            <div class="row">
+                <div class="col-11 viewAll">
+                    View all >
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row justify-content-between productRecomProducts">
+        <div class="col-2" *ngFor="let item of data" style="border: solid 1px green;">
+            <div class="row">
+                <div class="col">
+                    <img src="{{ item.image }}" alt="Product Image" style="height: 100%; width: 100%; max-height: 25vh;">         
+                </div>
+            </div>
+            <div class="row">
+                <div class="col align-self-bottom">
+                    {{ item.title }}
+                </div>
+            </div>
+         </div>
+    </div>
+</div>
