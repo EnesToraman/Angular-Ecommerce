@@ -1,3 +1,8 @@
 .container{
     margin-top: 2vh;
 }
+
+.sticky-top{
+    background-color: white;
+    padding-top: 1vh;
+}
