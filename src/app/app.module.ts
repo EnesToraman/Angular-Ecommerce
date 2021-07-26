@@ -12,6 +12,8 @@ import { CategoryBarComponent } from './components/category-bar/category-bar.com
 import { BannerComponent } from './components/banner/banner.component';
 import { ProductRowComponent } from './components/product-row/product-row.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { HomePageComponent } from './components/home-page/home-page.component';
+import { CategoryComponent } from './components/category/category.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { FooterComponent } from './components/footer/footer.component';
     CategoryBarComponent,
     BannerComponent,
     ProductRowComponent,
-    FooterComponent
+    FooterComponent,
+    HomePageComponent,
+    CategoryComponent
   ],
   imports: [
     BrowserModule,
