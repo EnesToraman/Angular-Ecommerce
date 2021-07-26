@@ -1,4 +1,4 @@
-.bannerArea{
+.banner-area{
     height: 50vh;
     border-radius: 60px;
     text-align: center;
@@ -11,12 +11,12 @@
     border-radius: 60px;
 }
 
-.subBannerArea{
+.sub-banner-area{
     margin-top: 3vh;
     height:10vh;
 }
 
-.subBanner{
+.sub-banner{
     width: 100%;
     height: 100%;
     border-radius: 20px;

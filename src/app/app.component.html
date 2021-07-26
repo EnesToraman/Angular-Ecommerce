@@ -1,12 +1,14 @@
 <div class="container">
   <app-generalinfo></app-generalinfo>
-<div class="row sticky-top">
-  <div class="col">
-    <app-header></app-header>
-    <app-category-bar></app-category-bar>
+  <div class="row sticky-top">
+    <div class="col">
+      <app-header></app-header>
+      <app-category-bar></app-category-bar>
+    </div>
   </div>
-</div>
   <app-banner></app-banner>
-  <app-product-recom></app-product-recom>
+  <app-product-row></app-product-row>
   <app-footer></app-footer>
 </div>
+
+<router-outlet></router-outlet>

@@ -10,7 +10,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { CategoryBarComponent } from './components/category-bar/category-bar.component';
 import { BannerComponent } from './components/banner/banner.component';
-import { ProductRecomComponent } from './components/product-recom/product-recom.component';
+import { ProductRowComponent } from './components/product-row/product-row.component';
 import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
@@ -20,7 +20,7 @@ import { FooterComponent } from './components/footer/footer.component';
     HeaderComponent,
     CategoryBarComponent,
     BannerComponent,
-    ProductRecomComponent,
+    ProductRowComponent,
     FooterComponent
   ],
   imports: [
