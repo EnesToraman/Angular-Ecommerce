@@ -1,0 +1,45 @@
+.prodRecomArea{
+    margin-top: 9vh;
+}
+
+.viewAll{
+    font-size: 13px;
+}
+
+.productRecomProducts{
+    margin-top: 2vh;
+}
+
+.productRecomItems{
+    border: solid 1px gray;
+    border-radius: 10px;
+    padding-top: 2vh;
+}
+
+.productRecomImage{
+    height: 100%;
+    width: 100%;
+    max-height: 23vh;
+}
+
+.productName{
+   text-align: center; 
+   margin-top: 3vh; 
+   font-size: 14px; 
+   overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 1;
+   -webkit-box-orient: vertical;
+}
+
+.productDetailText{
+    background-color: rgb(115, 115, 172);
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    margin: 10px;
+    border: solid 1px gray;
+    text-align: center;
+    font-size: 15px;
+}

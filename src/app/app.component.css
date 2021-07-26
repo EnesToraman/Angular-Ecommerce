@@ -2,14 +2,7 @@
     margin-top: 2vh;
 }
 
-.header{
-    margin-top: 3vh;
-}
-
-.categoryBar{
-    margin-top: 4vh;
-}
-
-.bannerArea{
-    margin-top: 4vh;
+.sticky-top{
+    background-color: white;
+    padding-top: 1vh;
 }

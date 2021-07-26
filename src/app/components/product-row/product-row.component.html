@@ -1,0 +1,33 @@
+<div class="prodRecomArea" *ngFor="let i of [].constructor(3)">
+    <div class="row">
+        <div class="col-1">
+            Products
+        </div>
+        <div class="col-1">
+            <div class="row">
+                <div class="col-11 viewAll">
+                    View all >
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row justify-content-between productRecomProducts">
+        <div class="col-2 productRecomItems" *ngFor="let item of productList">
+            <div class="row">
+                <div class="col">
+                    <img src="{{ item.image }}" alt="Product Image" class="productRecomImage">         
+                </div>
+            </div>
+            <div class="row">
+                <div class="col productName">
+                    {{ item.title }}
+                </div>
+            </div>
+            <div class="row">
+                <div class="col productDetailText">
+                    Product Detail
+                </div>
+            </div>
+         </div>
+    </div>
+</div>

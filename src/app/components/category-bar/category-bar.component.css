@@ -1,10 +1,11 @@
-.categoryName{
+.category-name{
     text-align: center;
     color: white;
     border-right: solid 1px gray;
 }
 
-.categoryBar{
+.category-bar{
     background-color: rgb(17, 17, 85);
     height: 30px;
+    margin-top: 4vh;
 }

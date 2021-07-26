@@ -1,8 +1,12 @@
-.companyLogo{
+.header{
+    margin-top: 3vh;
+}
+
+.company-logo{
     text-align: end;
 }
 
-.companyName{
+.company-name{
     padding-left: 5px;
 }
 
@@ -11,49 +15,49 @@
     padding-left: 5px;
 }
 
-.searchBar{
+.search-bar{
     width: 80%;
     text-indent: 35px;
 }
 
-.searchBar:focus{
+.search-bar:focus{
     outline: none;
 }
 
-.searchBarLogo{
+.search-bar-logo{
     position: absolute;
     padding-top: 3px;
     padding-left: 10px;
 }
 
-.userLogo{
+.user-logo{
     text-align: end;
     opacity: 50%;
 }
 
-.logIn{
+.log-in{
     border: solid 1px gray; 
     border-radius: 10px;
 }
 
-.logInText{
+.log-in-text{
     font-size: 14px;
     padding-right: 0px;
     padding-left: 20px;
 }
 
-.orRegisterText{
+.or-register-text{
     font-size: 13px;
     padding-right: 0px;
     padding-left: 20px;
 }
 
-.shoppingCart{
+.shopping-cart{
     border: solid 1px gray; 
     border-radius: 10px;
 }
 
-.shoppingCartText{
+.shopping-cart-text{
     font-size: 13.5px;
     padding-left: 25px;
 }
