@@ -14,6 +14,9 @@ import { ProductRowComponent } from './components/product-row/product-row.compon
 import { FooterComponent } from './components/footer/footer.component';
 import { HomePageComponent } from './components/home-page/home-page.component';
 import { CategoryComponent } from './components/category/category.component';
+import { CategoryHeaderComponent } from './components/category-header/category-header.component';
+import { CategoryProductComponent } from './components/category-product/category-product.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -25,14 +28,18 @@ import { CategoryComponent } from './components/category/category.component';
     ProductRowComponent,
     FooterComponent,
     HomePageComponent,
-    CategoryComponent
+    CategoryComponent,
+    CategoryHeaderComponent,
+    CategoryProductComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     NgbModule,
     FontAwesomeModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

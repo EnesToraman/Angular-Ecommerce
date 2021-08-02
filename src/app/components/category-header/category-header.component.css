@@ -1,0 +1,16 @@
+.category-navigation{
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    font-size: 14px;
+}
+
+.sort-by{
+    font-size: 13px;
+}
+
+.btn-outline-secondary{
+    font-size: 12px;
+    margin-left: 4px;
+    padding-right: 10px;
+    padding-left: 5px;
+}
