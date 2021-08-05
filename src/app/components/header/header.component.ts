@@ -17,13 +17,13 @@ export class HeaderComponent implements OnInit {
   public shoppingCartLogo = faShoppingCart;
 
 
-  constructor(private utilitiesService: UtilitiesService) {}
+  constructor(private utilitiesService: UtilitiesService) { }
 
   ngOnInit(): void {
   }
 
 
-  sendTheNewValue(event: any) {
+  sendTheNewValue(event: any): void {
     const searchQuery: string = event.target.value;
     this.utilitiesService.searchQuerySubject$.next(searchQuery);
   }

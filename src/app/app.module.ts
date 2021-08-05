@@ -17,6 +17,7 @@ import { CategoryComponent } from './components/category/category.component';
 import { CategoryHeaderComponent } from './components/category-header/category-header.component';
 import { CategoryProductComponent } from './components/category-product/category-product.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { NgxSliderModule } from '@angular-slider/ngx-slider';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     HomePageComponent,
     CategoryComponent,
     CategoryHeaderComponent,
-    CategoryProductComponent
+    CategoryProductComponent,
   ],
   imports: [
     BrowserModule,
@@ -39,7 +40,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     FontAwesomeModule,
     HttpClientModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    NgxSliderModule
   ],
   providers: [],
   bootstrap: [AppComponent]
