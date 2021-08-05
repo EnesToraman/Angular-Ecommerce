@@ -1,0 +1,24 @@
+<div class="row category-navigation">
+    <div class="col">
+        <fa-icon [icon]="Home"></fa-icon> Home <fa-icon [icon]="Arrow"></fa-icon> Products
+    </div>
+</div>
+<div class="row">
+    <div class="col-3">
+        20 products
+    </div>
+    <div class="col-6">
+        Products
+    </div>
+    <div class="col-3 sort-by">
+        Sort By
+        <div ngbDropdown class="d-inline-block">
+            <button class="btn btn-outline-secondary" ngbDropdownToggle>Most Relevant</button>
+            <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+                <button ngbDropdownItem>Most Relevant</button>
+                <button ngbDropdownItem>Most Popular</button>
+                <button ngbDropdownItem>Price: Low - High</button>
+                <button ngbDropdownItem>Price: High - Low</button>
+            </div>
+        </div>
+    </div>
