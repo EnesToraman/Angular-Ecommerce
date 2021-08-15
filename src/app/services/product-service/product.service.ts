@@ -11,7 +11,7 @@ export class ProductService {
   constructor( private http : HttpClient ) { }
 
   getProduct(): Observable<Product[]>{
-    return this.http.get<Product[]>('https://fakestoreapi.com/products?limit=5');
+    return this.http.get<Product[]>('http://localhost:8080/products');
   }
 
 }
