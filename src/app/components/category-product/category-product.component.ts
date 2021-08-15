@@ -47,7 +47,7 @@ export class CategoryProductComponent implements OnInit {
 
   private filterByQuery(products: Product[], query: string): Product[] {
     return products.filter(function (el) {
-      return el.title.toLowerCase().includes(query.toLowerCase());
+      return el.name.toLowerCase().includes(query.toLowerCase());
     });
   }
 
